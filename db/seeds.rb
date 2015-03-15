@@ -24,4 +24,9 @@ Event.create(name: "Casual Friday", from: DateTime.parse('16th Jan 2015 00:00 AM
 Event.create(name: "Running", from: DateTime.parse('16th Jan 2015 08:00 PM'), to: DateTime.parse('16th Jan 2015 08:30 PM'), location: "", day_id: d6.id)
 Event.create(name: "Grocery Shopping", from: DateTime.parse('16th Jan 2015 09:00 PM'), to: DateTime.parse('16th Jan 2015 09:30 AM'), location: "", day_id: d6.id)
 
-d6 = Day.create(date: DateTime.parse('17th Jan 2015 00:00 AM'))
+d7 = Day.create(date: DateTime.parse('17th Jan 2015 00:00 AM'))
+
+d8 = Day.create(date: DateTime.parse('18th Jan 2015 00:00 AM'))
+Event.create(name: "Cross Country Crack Fest", from: DateTime.parse('17th Jan 2015 00:00 AM'), to: DateTime.parse('17th Jan 2015 00:00 AM'), location: "15th & Flagler", day_id: d8.id)
+Event.create(name: "JavaScript Hating with Steve", from: DateTime.parse('17th Jan 2015 08:00 PM'), to: DateTime.parse('16th Jan 2015 08:30 PM'), location: "WynCode", day_id: d8.id)
+Event.create(name: "Making up $**t for Ruby on Rails", from: DateTime.parse('17th Jan 2015 09:00 PM'), to: DateTime.parse('16th Jan 2015 09:30 AM'), location: "The Bar", day_id: d8.id)
